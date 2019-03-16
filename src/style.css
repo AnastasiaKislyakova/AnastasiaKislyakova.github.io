@@ -1,6 +1,16 @@
+html, body, .main { 
+    height: 100%;
+    margin: 0;
+ }
+
+ .main {
+ 	background-color: slategray;
+ }
+
 .header {
 	background-color: darkslategray;
-	height: 150;
+	height: 15%;
+	min-height: 90px;
 	font-size: 0.8em;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -37,21 +47,20 @@
 
 .menubar {
 	width: 25%;
-	background-color: slategray;
-	float: left;
+	height: 85%;
+	float: left;	
 }
 
 ul.menu {
 	float: right;
 	width: 150px;
-	height: 600px;
 }
 
 ul.menu li{
 	float: left;
 	list-style: none;
 	width: 120px;
-	height: 20px;
+	height: 30px;
 	margin: 1px 2px 0 0;
 }
 
