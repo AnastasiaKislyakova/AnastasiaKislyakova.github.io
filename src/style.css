@@ -1,6 +1,6 @@
 .header {
 	background-color: darkslategray;
-	height: 177px;
+	height: 150;
 	font-size: 0.8em;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -33,4 +33,41 @@
 	font-size: 0.9em;
 	padding: 4px 0 0 0;
 	color: turquoise;
+}
+
+.menubar {
+	width: 25%;
+	background-color: slategray;
+	float: left;
+}
+
+ul.menu {
+	float: right;
+	width: 150px;
+	height: 600px;
+}
+
+ul.menu li{
+	float: left;
+	list-style: none;
+	width: 120px;
+	height: 20px;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+	font: normal 100% "trebuchet ms", sans-serif;
+	display: block;
+	height: 25px;
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.menu li.selected a {
+	color: #ffff66;
+}
+
+ul.menu li a:hover {
+	color: aquamarine;
 }
