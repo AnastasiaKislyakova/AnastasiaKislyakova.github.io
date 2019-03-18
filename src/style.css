@@ -5,7 +5,7 @@ html, body, .main {
 
  .main {
  	background-color: slategray;
- 	min-width: 990px;
+ 	min-width: 700px;
  }
 
 .header {
@@ -83,9 +83,9 @@ ul.menu li a:hover {
 	vertical-align: top;
 	display: inline-block;
 	width: 45%;
-	height: 80%;
+	height: 90%;
 	border-radius: 10px;
-	margin: 5px;
+	margin: 10px 5px 10px 5px;
 	padding: 10px;
 }
 
@@ -118,3 +118,28 @@ input[type="search"] {
 	margin: 0 0 0 9px;
 	color: turquoise;
 }
+
+@media screen and (max-width: 920px) {
+
+	#menubar1 {
+		display: none;
+	}
+
+	#site_content1 {
+			width: 95%;
+		}
+
+	@media screen and (max-width: 700px) {
+		#block2{
+			display: none;
+		}
+
+		#block1 {
+			width: 60%;
+			margin-left: 20%;
+			margin-right: 20%;
+		}
+
+	}
+}
+
