@@ -5,7 +5,7 @@ html, body, .main {
 
  .main {
  	background-color: slategray;
- 	min-width: 990px; 
+ 	min-width: 990px;
  }
 
 .header {
@@ -85,7 +85,7 @@ ul.menu li a:hover {
 	width: 45%;
 	height: 80%;
 	border-radius: 10px;
-	margin: 15px;
+	margin: 5px;
 	padding: 10px;
 }
 
@@ -93,13 +93,13 @@ ul.menu li a:hover {
 	background-color: #ffff66; 
 }
 
-.cian {
-	background-color: turquoise; 
+.darkslategray {
+	background-color: darkslategray; 
 }
 
 input[type="search"] {
 	border: none;
-	color: darkslategray;
+	color: black;
 	width: 60%;
 	padding: 5px;
 	margin: 10px;
@@ -116,5 +116,5 @@ input[type="search"] {
 .block h2 {
 	font: 20px "century gothic", arial, sans-serif;
 	margin: 0 0 0 9px;
-	color: darkslategray;
+	color: turquoise;
 }
