@@ -1,1 +1,1 @@
-# kislyakova.lab1.github.io
+# kislyakova.github.io
