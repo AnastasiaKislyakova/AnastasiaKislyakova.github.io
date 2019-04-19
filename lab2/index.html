@@ -12,8 +12,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </head>
-<body>
-	<div class="position-relative overflow-hidden text-center bg-light">
+<body style="background-color: #E0FFFF">
+	<div class="position-relative overflow-hidden text-center" 
+	style="background-repeat: no-repeat; background-size: cover; background-image: url(http://lo-pa.com/wp-content/uploads/2015/07/clip_image0011-1170x600.png)">
     	<div class="col my-4">
         	<h1 class="display-4">
             Bomb
@@ -21,7 +22,7 @@
         	<p>
             This is our bath bomb! The best way to relax!
         	</p>
-        	<a class="btn btn btn-outline-secondary" href="#Contact">Learn more</a>
+        	<a class="btn btn btn-outline-warning" href="#Contact">Learn more</a>
     	</div>
 	</div>
 	<div class="container m-auto text-center">
@@ -40,18 +41,30 @@
 			</div>
 		</div>
 		<hr class="divider">
-	<div class="row">
-        <div class="col-md-7">
-            <h2 class="font-weight-normal">Full information</h2>
-            <p class="lead">Settle in for a good soak with an original Bomb invention, exploding with essential oils and tons of fizzy fun. Whether you're after a relaxing, petal-laden floral soak or an invigorating multilayered explosion of color and scent, there's a bath bomb perfect for every bathing experience.</p>
+		<div class="row">
+	        <div class="col-md-7">
+	            <h2 class="font-weight-normal">Full information</h2>
+	            <p class="lead">Settle in for a good soak with an original Bomb invention, exploding with essential oils and tons of fizzy fun. Whether you're after a relaxing, petal-laden floral soak or an invigorating multilayered explosion of color and scent, there's a bath bomb perfect for every bathing experience.</p>
+	        </div>
+	        <div class="col-md-5">
+	            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+	                 src="https://s3-ap-southeast-2.amazonaws.com/ish-oncourse-scc/54dbc44f-9cde-4239-b53c-90412f5264c1"
+	            role="img" width="500" height="500">
+	        </div>
+	    </div>
+	    <hr class="divider">
+	    <form class="col-6 m-auto" id="Contact">
+        <h4 class="font-weight-normal my-4">Contact us</h4>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
-        <div class="col-md-5">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                 src="https://s3-ap-southeast-2.amazonaws.com/ish-oncourse-scc/54dbc44f-9cde-4239-b53c-90412f5264c1"
-            role="img" width="500" height="500">
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your question</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <a class="btn btn-light my-4" href="#">Send</a>
         </div>
-    </div>
-    <hr class="divider">
+    </form>
 	</div>
 	
 
