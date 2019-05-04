@@ -1,6 +1,7 @@
 html, body, .main { 
     height: 100%;
     margin: 0;
+    background-color: slategray;
  }
 
  .main {
@@ -119,27 +120,16 @@ input[type="search"] {
 	color: turquoise;
 }
 
-@media screen and (max-width: 920px) {
-
-	#menubar1 {
-		display: none;
+@media (max-width: 920px) {
+	#block2 {
+		height: 20%;
 	}
 
-	#site_content1 {
-			width: 95%;
-		}
-
-	@media screen and (max-width: 700px) {
-		#block2{
-			display: none;
-		}
-
-		#block1 {
-			width: 60%;
-			margin-left: 20%;
-			margin-right: 20%;
-		}
-
+	#block2, #block1{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
+	
 }
 
