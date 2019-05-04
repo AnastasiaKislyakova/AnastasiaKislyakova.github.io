@@ -12,7 +12,7 @@ window.onload = function () {
     //callback hell
     loadImages(canvas, ctx, function () {
         loadQuote(function (text) {
-            writeText(canvas, ctx, text, 80);
+            writeText(canvas, ctx, text, 70);
             placeButton(canvas);
         })
     })
@@ -20,7 +20,6 @@ window.onload = function () {
 
 function createCanvas() {
     let canvas = document.createElement('canvas');
-    //canvas.id = "CursorLayer";
     canvas.width = screen.width * 0.8;
     canvas.height = screen.height * 0.8;
     return canvas;
@@ -75,7 +74,7 @@ function loadQuote(onSuccess) {
 }
 
 function writeText(canvas, ctx, text, lineHeight) {
-    ctx.font = "bold 50pt Arial";
+    ctx.font = "bold 40pt Arial";
     ctx.textBaseline = "middle";
     ctx.textAlign = "center";
     ctx.fillStyle = "ivory";
