@@ -50,13 +50,13 @@ function loadImages(canvas, ctx, onAllLoaded) {
     }
 }
 
-// function setCrossDomainFilter() {
-//     $.ajaxPrefilter(function (options) {
-//         if (options.crossDomain && $.support.cors) {
-//             options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
-//         }
-//     });
-// }
+function setCrossDomainFilter() {
+    $.ajaxPrefilter(function (options) {
+        if (options.crossDomain && $.support.cors) {
+            options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+        }
+    });
+}
 
 function loadQuote(onSuccess) {
     $.ajax({
